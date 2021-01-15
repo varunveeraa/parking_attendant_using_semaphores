@@ -18,7 +18,6 @@ The types of semaphores include:
 Keywords: Counting semaphores, binary semaphores, automatic machine, avoid deadlock, first come first serve, align in the queue. 
 
 ### 3.EXPLANATION AND METHODOLOGY 
- 
 This project is based on the concept of semaphores and scheduling. The vehicles are scheduled to enter the parking system in two queues. Only one vehicle can enter the parking system/machine at a time. 
  
 P and V Semaphores are used to avoid deadlock whenever a vehicle enters the system, function P is called which decrements the value of S (constant) to 0 and until S is equal to one no other vehicle can enter the machine and when the vehicle get parked it calls function V which increments S to 1 so now other vehicle can also enter the machine. 
@@ -33,4 +32,32 @@ The diagrams are given in the next section.
 ### 4.PROPOSED ARCHITECTURE DIAGRAM 
 <img src="entrance.png">
 <img src="exit.png">
+
+### 5.RESULTS AND DISCUSSION 
+It has turned into a difficult situation to find a parking spot for automobiles in metropolitan areas because of the chaos. Using semaphores and FCFS scheduling, we are hoping to solve this issue. 
+
+Initially, the value of counting semaphore is set to the total number of slots in the parking sector. As and when a particular slot is accessed or occupied, the value of the counting semaphore decrements. In this way, user can only access the slots that are neither accessed nor occupied.
+
+Using P and V Semaphores, P semaphore will decrease the value of S and V will increase the value of S. Every vehicle will be given priority onthe basis of first come first service. 
+
+This way every vehicle can get a place to park
+
+### 6.CODE
+Included in the repository
+
+### 7.OUTPUT 
+<img src="ss1.png">
+<img src="ss2.png">
+<img src="ss3.png">
+<img src="ss4.png">
+<img src="ss5.png">
+<img src="ss6.png">
+
+### 8.CONCLUSION
+We tend to fix the issue of parking slots by performing this and incorporating it into the machine/system. 
+The semaphore value of the parking slots is monitored continuously to check for its transition from 1 to 0 or vice versa and the information is updated to the main server frequently. 
+The following estimated experimental results illustrate the efficacy and feasibility of the proposed Semaphore and Slot Acquisition based Parking System (SSAPS) in a cost effective way. 
+We have worked towards solving this parking issue and semaphore has ensured that it would work smoothly. This is such a frequent problem in today’s world and must be brought to everyone’s attention to save time and avoid any sort of chaos. 
+During the peak hours, most parking lots are almost fully occupied in central area. Consequently, users have to select the parking lots in surrounding area, which are closer to their start points. Therefore, it results in the reduction of average driving distance during the peak hours. 
+This project highlights the importance of synchronization and semaphores in the real world, and many more applications can be propagated by using these operating systems topics. 
 
