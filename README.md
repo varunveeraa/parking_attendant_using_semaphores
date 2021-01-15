@@ -43,7 +43,7 @@ Using P and V Semaphores, P semaphore will decrease the value of S and V will in
 This way every vehicle can get a place to park
 
 ### 6.CODE
-Included in the repository
+/main.cpp
 
 ### 7.OUTPUT 
 <img src="output/ss1.png">
