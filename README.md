@@ -30,3 +30,7 @@ The parking entrance of 2 rows acts as a lock. Only one process can enter the cr
  
 The diagrams are given in the next section. 
 
+### 4.PROPOSED ARCHITECTURE DIAGRAM 
+<img src="entrance.png">
+<img src="exit.png">
+
