@@ -30,8 +30,8 @@ The parking entrance of 2 rows acts as a lock. Only one process can enter the cr
 The diagrams are given in the next section. 
 
 ### 4.PROPOSED ARCHITECTURE DIAGRAM 
-<img src="entrance.png">
-<img src="exit.png">
+<img src="flowchart/entrance.png">
+<img src="flowchart/exit.png">
 
 ### 5.RESULTS AND DISCUSSION 
 It has turned into a difficult situation to find a parking spot for automobiles in metropolitan areas because of the chaos. Using semaphores and FCFS scheduling, we are hoping to solve this issue. 
@@ -46,12 +46,12 @@ This way every vehicle can get a place to park
 Included in the repository
 
 ### 7.OUTPUT 
-<img src="ss1.png">
-<img src="ss2.png">
-<img src="ss3.png">
-<img src="ss4.png">
-<img src="ss5.png">
-<img src="ss6.png">
+<img src="output/ss1.png">
+<img src="output/ss2.png">
+<img src="output/ss3.png">
+<img src="output/ss4.png">
+<img src="output/ss5.png">
+<img src="output/ss6.png">
 
 ### 8.CONCLUSION
 We tend to fix the issue of parking slots by performing this and incorporating it into the machine/system. 
